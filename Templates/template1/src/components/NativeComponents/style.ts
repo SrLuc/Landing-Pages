@@ -12,6 +12,7 @@ export const StyledTopStatusBar = styled.div`
 
   p {
     padding-top: 5px;
+    font-weight: 600;
     display: flex;
     align-content: center;
 
