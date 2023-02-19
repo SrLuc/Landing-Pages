@@ -2,22 +2,27 @@ import React from "react";
 import * as S from "./StylePages";
 
 //importações
-import Header from "../components/Header/Header";
-import Search from "../components/Search/Search";
-import Menu from "../components/Menu/Menu";
-import ContainerFood from "../components/Food/ContainerFood";
-import Offer from "../components/Offer/Offer";
+import TopStatusBar from "../components/NativeComponents/TopStatusBar";
+import Header from "../components/HomeComponents/Header/Header";
+import Search from "../components/HomeComponents/Search/Search";
+import Menu from "../components/HomeComponents/Menu/Menu";
+import ContainerFood from "../components/HomeComponents/Food/ContainerFood";
+import Offer from "../components/HomeComponents/Offer/Offer";
+import ContainerNavBar from "../components/HomeComponents/NavBottomBar/NavBottomBar";
+
 
 interface HomeProps {}
 
 const Home = ({}: HomeProps) => {
   return (
     <S.StyledHomePage>
+      <TopStatusBar/>
       <Header />
       <Search />
       <Menu />
       <ContainerFood />
-      <Offer/>
+      <Offer />
+      <ContainerNavBar />
     </S.StyledHomePage>
   );
 };
