@@ -10,6 +10,7 @@ export const StyledMenu = styled.div`
     font-family: Arial, Helvetica, sans-serif;
     letter-spacing: 5px;
     color: #3d405b;
+    font-size: 35px;
   }
 
   img {
