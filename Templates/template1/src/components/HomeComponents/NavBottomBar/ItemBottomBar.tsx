@@ -1,13 +1,19 @@
-import React from "react";
+import React, { Children } from "react";
 import * as S from "./style";
 
-interface ItemBottomBarProps {}
+interface ItemBottomBarProps {
+  name: string;
+  children: React.ReactNode;
+}
 
-const ItemBottomBar = ({}: ItemBottomBarProps) => {
+//icons
+import { MdGpsFixed } from "react-icons/md";
+
+const ItemBottomBar = ({name, children }: ItemBottomBarProps) => {
   return (
     <S.StyledItemBottomBar>
-      <img src="#" alt="item" />
-      <p>text</p>
+      <i>{children}</i>
+      <p>{name}</p>
     </S.StyledItemBottomBar>
   );
 };
