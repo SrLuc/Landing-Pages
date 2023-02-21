@@ -1,7 +1,6 @@
 import { createGlobalStyle } from "styled-components";
 
 const GlobalStyle = createGlobalStyle`
-
     * {
         margin: 0;
         padding: 0;
@@ -9,9 +8,12 @@ const GlobalStyle = createGlobalStyle`
     }
     html body #root{
         height: 100%;
+        
     }
     body{
-        font-family: 'DM Sans', sans-serif;
+        //font-family: 'Catamaran', sans-serif;
+        font-family: 'Ubuntu', sans-serif;
+        //font-family: "Jost", sans-serif;
     }
     button{
         outline: none;
@@ -24,4 +26,4 @@ const GlobalStyle = createGlobalStyle`
 
 `;
 
-export default GlobalStyle
+export default GlobalStyle;

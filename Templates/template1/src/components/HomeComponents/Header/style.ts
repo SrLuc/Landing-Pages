@@ -1,8 +1,6 @@
 import styled from "styled-components";
 
 export const StyledHeader = styled.div`
-  @import url("https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;1,100&family=Unbounded:wght@200;600&display=swap");
-  @import url("https://fonts.googleapis.com/css2?family=Noto+Sans:wght@200;300;400&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;1,100&display=swap");
 
   display: flex;
   justify-content: space-around;
@@ -19,9 +17,8 @@ export const StyledHeader = styled.div`
   }
 
   h4 {
-    font-family: "Noto Sans", sans-serif;
     font-size: 23px;
-    font-weight: 100;
+    font-weight: 400;
     text-align: left;
     color: #3d405b;
   }
