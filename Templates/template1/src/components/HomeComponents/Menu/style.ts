@@ -6,8 +6,8 @@ export const StyledMenu = styled.div`
   margin: 5px;
 
   h1 {
-    padding: 0 0 10px 20px;
-    font-family: Arial, Helvetica, sans-serif;
+    padding: 0 0 10px 30px;
+    font-family: Arial, Helvetica, sans-serif,;
     letter-spacing: 5px;
     color: #3d405b;
     font-size: 35px;
