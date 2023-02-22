@@ -11,12 +11,15 @@ export const StyledContainerNavBar = styled.div`
   height: 92px;
   border-radius: 28px;
 
-  i{
+
+  i {
     display: flex;
     justify-content: center;
     align-items: center;
     padding: 3px;
     margin: 2px;
+
+
   }
 `;
 
@@ -24,4 +27,8 @@ export const StyledItemBottomBar = styled.div`
   display: flex;
   flex-direction: column;
   border-radius: 100%;
+  text-decoration: none;
+  outline: none;
+  color:#0F0E0E;
+
 `;

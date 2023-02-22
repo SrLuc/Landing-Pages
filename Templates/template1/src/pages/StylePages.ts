@@ -6,6 +6,7 @@ export const StyledHomePage = styled.section`
   justify-content: center;
   width: 100%;
   height: 100%;
+
 `;
 
 export const StyledCartPage = styled.section``;

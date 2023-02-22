@@ -12,8 +12,8 @@ const ContainerFood = ({}: ContainerFoodProps) => {
   return (
     <S.StyledContainerFood>
       <Food image={hamburguerImage} name="Burgers" nameClass="bg" />
-      <Food image={drinkImage} name="Fries" nameClass="fr" />
-      <Food image={friesImage} name="Drinks" nameClass="dr" />
+      <Food image={friesImage} name="Fries" nameClass="fr" />
+      <Food image={drinkImage} name="Drinks" nameClass="dr" />
     </S.StyledContainerFood>
   );
 };

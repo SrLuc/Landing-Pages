@@ -22,7 +22,7 @@ const Home = ({}: HomeProps) => {
       <Menu />
       <ContainerFood />
       <Offer />
-      <ContainerNavBar />
+      <ContainerNavBar/>
     </S.StyledHomePage>
   );
 };
