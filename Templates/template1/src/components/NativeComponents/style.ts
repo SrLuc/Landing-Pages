@@ -10,6 +10,8 @@ export const StyledTopStatusBar = styled.div`
   justify-content: space-between;
   align-content: center;
 
+  background-color: transparent;
+
   p {
     padding-top: 5px;
     font-weight: 600;
