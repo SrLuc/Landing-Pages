@@ -2,7 +2,7 @@ import React from "react";
 import * as S from "./styles";
 
 //image
-import besteseller from '../../../assets/besteseller.svg'
+import besteseller from "../../../assets/besteseller.svg";
 
 interface BestSellerProps {}
 
@@ -14,7 +14,9 @@ const BestSeller = ({}: BestSellerProps) => {
         <span className="ct">Classic Taste</span>
         <span className="bt">Bestseller</span>
       </div>
-      <img src={besteseller} alt="" />
+      <article>
+        <img src={besteseller} alt="" />
+      </article>
     </S.StyledBestSeller>
   );
 };

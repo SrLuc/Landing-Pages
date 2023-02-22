@@ -34,22 +34,24 @@ export const StyledBestSeller = styled.div`
     .bt {
       text-align: center;
       padding: 12px;
-      background: #84A59D;
+      background: #84a59d;
       border-radius: 28px;
       font-size: 17px;
       font-weight: bold;
       color: #fff;
       width: 70%;
       margin: 3px;
-      
-
     }
   }
 
-  img {
+  article {
     position: relative;
+    display: flex;
+    justify-content: right;
     z-index: 2;
-    left: 140px;
-    bottom: 100px;
+    bottom: 60px;
+    img {
+      width: 60%;
+    }
   }
 `;
