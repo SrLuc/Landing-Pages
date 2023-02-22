@@ -1,11 +1,20 @@
 import React from "react";
+
+//components
+import TopStatusBar from "../components/NativeComponents/TopStatusBar";
 import ContainerNavBar from "../components/HomeComponents/NavBottomBar/NavBottomBar";
 
 interface CartProps {}
 
 const Cart = ({}: CartProps) => {
   return <div>
-    Cart PAGE
+    <TopStatusBar/>
+    
+
+
+
+
+    
     <ContainerNavBar/>
   </div>;
 };

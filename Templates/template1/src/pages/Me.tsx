@@ -1,12 +1,20 @@
 import React from "react";
+
+//components
 import ContainerNavBar from "../components/HomeComponents/NavBottomBar/NavBottomBar";
+import TopStatusBar from "../components/NativeComponents/TopStatusBar";
 
 interface MeProps {}
 
 const Me = ({}: MeProps) => {
   return (
     <div>
-        Me PAGE
+      <TopStatusBar />
+
+
+
+
+      
       <ContainerNavBar />
     </div>
   );

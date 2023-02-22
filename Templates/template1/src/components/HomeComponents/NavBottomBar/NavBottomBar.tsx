@@ -16,7 +16,7 @@ interface NavBottomBarProps {}
 const ContainerNavBar = ({}: NavBottomBarProps) => {
   return (
     <S.StyledContainerNavBar>
-      <Link to="Location">
+      <Link to="/Location">
         <ItemBottomBar name="Location">
           <i>{<MdGpsFixed size={35} color="#0F0E0E" />}</i>
         </ItemBottomBar>

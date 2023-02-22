@@ -1,4 +1,4 @@
-import React from "react";
+import React, {useState} from "react";
 import * as S from "./style";
 
 //icons
@@ -7,12 +7,21 @@ import { GiNetworkBars } from "react-icons/gi";
 import { HiWifi } from "react-icons/hi";
 import { BsBatteryHalf } from "react-icons/bs";
 
+
+//dataStatus
+import { showTime } from "./teste";
+
 interface TopStatusBarProps {}
 
 const TopStatusBar = ({}: TopStatusBarProps) => {
+
+  const [hour, setHour] = useState(showTime);
+
+  
+
   return (
     <S.StyledTopStatusBar>
-      <p>00:00</p>
+      <p>{hour}</p>
       <div>
         <i>{<GiNetworkBars size={20} color="#000" />}</i>
         <i>{<HiWifi size={20} color="#000" />}</i>
