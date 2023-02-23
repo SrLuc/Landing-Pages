@@ -27,7 +27,7 @@ export const styledBottonStatusSection = styled.div`
     display: flex;
     justify-content: space-around;
     align-items: center;
-    border: 1px solid gray;
+    border: 1px solid #f28482;
     margin: 5px;
     border-radius: 20px;
     padding: 10px;
