@@ -24,11 +24,11 @@ const CartAmount = ({}: CartAmountProps) => {
   return (
     <S.StyledCartAmount>
       <div className="div1">
-        <i className="then" id="menos" onClick={() => removeAmount()}>
+        <i className="then" id="menos">
           {<IoIosRemove size={30} color="#3d405b" />}
         </i>
         <p>{count}</p>
-        <i className="more" id="mais" onClick={() => addAmount()}>
+        <i className="more" id="mais">
           {<MdOutlineAdd size={30} color="#fff" />}
         </i>
       </div>
