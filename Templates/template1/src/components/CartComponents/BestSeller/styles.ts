@@ -5,6 +5,7 @@ export const StyledBestSeller = styled.div`
   background: #f28482;
   border-radius: 0px 0px 28px 28px;
   z-index: 1;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
 
   h1 {
     //border: 3px dashed blue;

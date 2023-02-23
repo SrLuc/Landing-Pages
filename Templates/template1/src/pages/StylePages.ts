@@ -8,7 +8,13 @@ export const StyledHomePage = styled.section`
   height: 100%;
 `;
 
-export const StyledCartPage = styled.section``;
+export const StyledCartPage = styled.section`
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+`;
 
 export const StyledMePage = styled.section``;
 
