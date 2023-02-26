@@ -88,6 +88,29 @@ This was my first web landing page developed using ReactJS, it served to further
 
 ### Link to Template :  http://landingpagets.surge.sh/
 
+---
+
+## Landing Page 4
+
+**Dashboard Template**
+
+This project I developed to test the ChartJS javascript library
+
+**Template Images**
+
+![](./images_templates/Dashboard.png)
+
+**Development Stack**
+- ReactJS with Typescript
+- Styled Components
+- ChartJS
+- React Icons
+- Html, CSS
+
+
+### Link to Template :  http://trendydashboard-rrr.surge.sh/
+
+
 
 
 
