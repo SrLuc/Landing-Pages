@@ -50,7 +50,7 @@ export const StyledBestSeller = styled.div`
     display: flex;
     justify-content: right;
     z-index: 2;
-    bottom: 60px;
+    bottom: 70px;
     img {
       width: 60%;
     }
