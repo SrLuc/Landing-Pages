@@ -110,6 +110,29 @@ This project I developed to test the ChartJS javascript library
 
 ### Link to Template :  http://trendydashboard-rrr.surge.sh/
 
+---
+
+## Landing Page 5
+
+**Form Template**
+
+This was my first project using HTML, CSS and Javascript, my intention was to create a validation form, but then I changed my mind and decided to create a button to change the entire application theme and this is the result when I click on the "Change" button Theme"
+
+**Template Images**
+
+![](./images_templates/FormTemplate1.png)
+![](./images_templates/FormTemplate2.png)
+
+**Development Stack**
+- Html
+- CSS
+- Javascript
+
+
+### Link to Template :  I didn't deploy this template
+
+---
+
 
 
 
