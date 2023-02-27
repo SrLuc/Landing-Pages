@@ -41,7 +41,7 @@ Devtools (inspect) > Change Device Toolbar > Iphone XR (75%)
 
 **Template Images**
 
-![](./images_templates/FoodAppHome.png) ![](./images_templates/FoodAppCart.png) ![](./images_templates/FoodAppLocation.png) ![](./images_templates/FoodAppMe.png)
+![](./images_templates/FoodAppHome.png) ![](./images_templates/FoodAppCart.png) ![](./images_templates/FoodAppLocation.png)
 
 ### Link to Template :  https://food-moddle-app.surge.sh/
 
