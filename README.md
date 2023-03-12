@@ -133,6 +133,29 @@ This was my first project using HTML, CSS and Javascript, my intention was to cr
 
 ---
 
+## Landing Page 6
+
+**Aplication Page Web**
+
+This was my first PWA, which is an application that can be installed on mobile devices, this pwa aims to be a link shortener for Linux distros which I find interesting
+
+**Template Images**
+
+![](./images_templates/ELX1.png)
+![](./images_templates/ELX2.png)
+![](./images_templates/ELX3.jpeg)
+
+
+**Development Stack**
+- Html
+- CSS
+- Javascript
+- PWA
+
+### Link to Template :  https://incredible-entremet-a93f7f.netlify.app/
+
+---
+
 
 
 
