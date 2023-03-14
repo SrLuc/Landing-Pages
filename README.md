@@ -143,7 +143,6 @@ This was my first PWA, which is an application that can be installed on mobile d
 
 ![](./images_templates/ELX1.png)
 ![](./images_templates/ELX2.png)
-![](./images_templates/ELX3.jpeg)
 
 
 **Development Stack**
