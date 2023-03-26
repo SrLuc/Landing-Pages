@@ -155,6 +155,28 @@ This was my first PWA, which is an application that can be installed on mobile d
 
 ---
 
+**Air Max Web Page**
+
+in this project i do  an webpage for Nike Air Max shoe, in this project i do an a change of theme, using the react-switch and react-hooks
+
+**Template Images**
+
+![](./images_templates/shoe1.png)
+![](./images_templates/shoe2.png)
+
+
+
+**Development Stack**
+- ReactJS with Typescript
+- Styled Components
+- React Switch
+- React Shade
+- React Hook State
+
+
+### Link to Template : https://templatenike.surge.sh/
+
+
 
 
 
